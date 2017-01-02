@@ -1,0 +1,16 @@
+        <form class="collect cf">
+          <label class="collect-label">Name</label>
+          <input class="collect-input" name="name" type="text" placeholder="what's the item called?" autofocus>
+          <label class="collect-label">Manufacturer</label>
+          <input class="collect-input" name="manufacturer" type="text" placeholder="who made it?">
+          <label class="collect-label">Price</label>
+          <input class="collect-input" name="price" type="text" placeholder="rough dollar value, omit the '$'">
+          <label class="collect-label">URL</label>
+          <input class="collect-input" name="url" type="text" placeholder="buy link to item">
+          <label class="collect-label">IMG</label>
+          <input class="collect-input" name="img" type="text" placeholder="link to item image">
+          <input type="hidden" name="list" value="<%= list %>">
+          <input class="collect-submit" type="submit" value="&plus; Item">
+          <button class="collect-delete">delete</button>
+          <button class="collect-close">&times;</button>
+        </form>
